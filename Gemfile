@@ -12,6 +12,9 @@ group :production do
     gem 'rails_12factor'
 end
 
+#use Devise for managing users
+gem 'devise', '3.4.1'
+
 #use font awesome library for icons
 gem 'font-awesome-sass', '4.2.0'
 
