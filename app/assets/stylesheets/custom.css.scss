@@ -1,0 +1,21 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+.navbar {
+    //Gradient from http://uigradients.com/#
+    background: #283048; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #283048 , #859398); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #283048 , #859398); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    
+body {
+    //Gradient from http://uigradients.com/#
+    background: #003973; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #003973 , #E5E5BE); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #003973 , #E5E5BE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
